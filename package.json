@@ -1,0 +1,21 @@
+{
+  "name": "nodeExpress",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Sample Code",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+      "start": "pm2 start app.js",
+      "stop": "pm2 stop all"
+}
+}

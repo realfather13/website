@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 4200
+const port = 80
 
 app.get('/', (req, res) => res.send('Today is the day !'))
 
